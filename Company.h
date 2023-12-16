@@ -51,7 +51,6 @@ private:
     queue<Bus> mBusMaintenance;
     queue<Bus> wBusMaintenance;
 public:
-    void loadDataFromFile(const std::string &filename);
     // Add a comment to test github
     // For Ibrahem
     // Third test (Push both 2 tests)

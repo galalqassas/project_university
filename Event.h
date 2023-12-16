@@ -20,7 +20,7 @@ protected:
     string ptype; // passenger type (SP, WP, NP) (only for arrival events)
 public:
     // constructor
-    Event(Time time, int id, int start, int end = 0, string ptype = "");
+    Event(Time time, int id, int start, int end = 0, string ptype);
     virtual void process() = 0;
     virtual void print() = 0;
     virtual ~Event();
