@@ -18,9 +18,10 @@ private:
     int End_Station;
     string Passenger_Type;
     string Special_Type;
+    int Id;
 
 public:
-    Passenger(const Time& arrivalTime, const Time& getOnTime, const Time& getOffTime, int startStation, int &endStation, const string& passengerType,string Special_Type);
+    Passenger(const Time& arrivalTime, const Time& getOnTime, const Time& getOffTime, int startStation, int &endStation, const string& passengerType,string Special_Type,int id);
     Time getArrivalTime() const;
     void setArrivalTime(const Time& arrivalTime);
     Time getGetOnTime() const;
@@ -33,6 +34,10 @@ public:
     void setEndStation(const int& endStation);
     string getPassengerType() const;
     void setPassengerType(const string& passengerType);
+    void setSpecialType(string special);
+    string getSpecialType() const;
+    void setId(int id);
+    int getId() const;
 };
 
 

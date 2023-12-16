@@ -5,8 +5,8 @@
 #include "Passenger.h"
 
 
-Passenger::Passenger(const Time& arrivalTime, const Time& getOnTime, const Time& getOffTime, int startStation, int &endStation, const string& passengerType,string Special_Type)
-        : Arrival_Time(arrivalTime), Get_On(getOnTime), Get_Off(getOffTime), Start_Station(startStation), End_Station(endStation), Passenger_Type(passengerType),Special_Type(Special_Type) {}
+Passenger::Passenger(const Time& arrivalTime, const Time& getOnTime, const Time& getOffTime, int startStation, int &endStation, const string& passengerType,string Special_Type,int id)
+        : Arrival_Time(arrivalTime), Get_On(getOnTime), Get_Off(getOffTime), Start_Station(startStation), End_Station(endStation), Passenger_Type(passengerType),Special_Type(Special_Type),Id(id) {}
 
 
 
@@ -61,6 +61,19 @@ string Passenger::getPassengerType() const {
 
 void Passenger::setPassengerType(const string& passengerType) {
     Passenger_Type = passengerType;
+}
+
+void Passenger::setSpecialType(string special){
+    Special_Type=special;
+}
+string Passenger::getSpecialType() const{
+    return Special_Type;
+}
+void Passenger::setId(int id){
+    Id=id;
+}
+int Passenger::getId() const{
+    return Id;
 }
 
 
