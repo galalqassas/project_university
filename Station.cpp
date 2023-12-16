@@ -76,11 +76,39 @@ void Station::setAvailableBusesBackward(const Queue<Bus> &availableBusesBackward
     Station::availableBusesBackward = availableBusesBackward;
 }
 
+void Station::addPassengerWp(Passenger passenger) {
+    if (isForward(passenger))
+        waitingWcPForward.enqueue(passenger);
+    else
+        waitingWcPBackward.enqueue(passenger);
+}
+int Station::getSPPriority(string sp_type) {
+    if (sp_type == "aged"){
+        return 1;
+    } else if (sp_type == "POD"){
+        return 2;
+    } else if (sp_type == "Pregnant"){
+        return 3;
+    } else {
+        return 0;
+    }
+}
+
+void Station::addPassengerSp(Passenger passenger, string type) {
+    int priority = getSPPriority(type);
+    if (isForward(passenger))
+        waitingSPForward.enqueue(passenger, priority);
+    else
+        waitingSPBackward.enqueue(passenger, priority);
+}
+
+
+/*
 void Station::addPassenger(Passenger passenger, string sp_type) {
     if (passenger.getStartStation() != stationNumber) return;
     if (passenger.getStartStation() ==  stationNumber){
          if(passenger.getPassengerType() == "wp"){
-            if (passenger.getEndStation() > passenger.getStartStation())
+            if (isForward(passenger))
                 waitingWcPForward.enqueue(passenger);
             else
                waitingWcPBackward.enqueue(passenger);
@@ -98,6 +126,10 @@ void Station::addPassenger(Passenger passenger, string sp_type) {
                 waitingSPBackward.enqueue(passenger, priority);
         } else return;
     }
+}
+
+bool Station::isForward(const Passenger &passenger) const {
+    return passenger.getEndStation() > passenger.getStartStation();
 }
 
 int Station::getSPPriority(string sp_type) {
@@ -139,3 +171,4 @@ void Station::removePassenger(Passenger passenger, string sp_type) {
         } else return;
     }
 }
+*/
