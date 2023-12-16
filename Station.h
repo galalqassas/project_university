@@ -12,19 +12,21 @@
 #include "PriorityQueue.h"
 #include "Queue.h"
 using namespace std;
-class Station : public error_code {
+class Station {
 private:
     short stationNumber;
     PriorityQueue<Passenger> waitingSPForward;
     PriorityQueue<Passenger> waitingSPBackward;
-    Queue<Passenger> waitingNPForward;
-    Queue<Passenger> waitingNPBackward;
     Queue<Passenger> waitingWcPForward;
     Queue<Passenger> waitingWcPBackward;
+    Queue<Passenger> waitingNPForward;
+    Queue<Passenger> waitingNPBackward;
     Queue<Bus> availableBusesForward;
     Queue<Bus> availableBusesBackward;
     int getSPPriority(string sp_type);
+    bool isForward(const Passenger &passenger) const;
 public:
+    // getters and setters
     short getStationNumber() const;
     void setStationNumber(short stationNumber);
     const PriorityQueue<Passenger> &getWaitingSpForward() const;
@@ -42,9 +44,15 @@ public:
     const Queue<Bus> &getAvailableBusesForward() const;
     void setAvailableBusesForward(const Queue<Bus> &availableBusesForward);
     const Queue<Bus> &getAvailableBusesBackward() const;
+
+    //
     void setAvailableBusesBackward(const Queue<Bus> &availableBusesBackward);
-    void addPassenger(Passenger passenger, string sp_type="");
+    void addPassengerWp(Passenger passenger);
+    void addPassengerSp(Passenger passenger, string type);
+
+
     void removePassenger(Passenger passenger, string sp_type);
+
 };
 
 
