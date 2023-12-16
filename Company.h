@@ -13,6 +13,35 @@
 //#include "Station.h"
 using namespace std;
 
+
+struct Event {
+    char A_L;
+    std::string type;
+    std::string time;
+    int bus;
+    int station;
+    int passengers;
+    std::string condition;
+};
+
+struct Parameters {
+    int num_stations;
+    int time_between_stations;
+    int num_WBuses;
+    int num_MBuses;
+    int capacity_WBus;
+    int capacity_MBus;
+    int trips_before_checkup;
+    int checkup_duration_WBus;
+    int checkup_duration_MBus;
+    int max_waiting_time;
+    int get_on_off_time;
+};
+
+
+
+
+
 class Company {
 private:
     queue<Bus> station0;
@@ -27,8 +56,11 @@ public:
     // For Ibrahem
     // Third test (Push both 2 tests)
     // Ibrahem first commit
-    // second comment after the first push failed
+    // Nothing meaningful
 };
+
+void read_file(const char* filename, Event* events, Parameters& parameters);
+
 
 
 #endif //PROJECT_UNIVERSITY_COMPANY_H

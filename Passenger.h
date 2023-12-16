@@ -14,30 +14,25 @@ private:
     Time Arrival_Time;
     Time Get_On;
     Time Get_Off;
-    Station Start_Station;
-    Station End_Station;
+    int Start_Station;
+    int End_Station;
     string Passenger_Type;
+    string Special_Type;
 
 public:
-    Passenger(const Time& arrivalTime, const Time& getOnTime, const Time& getOffTime, Station startStation, const string& endStation, const string& passengerType);
+    Passenger(const Time& arrivalTime, const Time& getOnTime, const Time& getOffTime, int startStation, int &endStation, const string& passengerType,string Special_Type);
     Time getArrivalTime() const;
     void setArrivalTime(const Time& arrivalTime);
     Time getGetOnTime() const;
     void setGetOnTime(const Time& getOnTime);
     Time getGetOffTime() const;
     void setGetOffTime(const Time& getOffTime);
-    Station getStartStation() const;
-    void setStartStation(const Station& startStation);
-    Station getEndStation() const;
-    void setEndStation(const Station& endStation);
+    int getStartStation() const;
+    void setStartStation(const int& startStation);
+    int getEndStation() const;
+    void setEndStation(const int& endStation);
     string getPassengerType() const;
     void setPassengerType(const string& passengerType);
-
-    Passenger(Time time, Time time1, Time time2, Station station, const char string[1], const char string1[1]);
-
-    explicit Passenger(Time time, Time time1, Time time2, Station station, const char string[1], const char string1[1]);
-
-    Passenger(Time time, Time time1, Time time2, Station station, const char string[1], const char string1[1]);
 };
 
 
