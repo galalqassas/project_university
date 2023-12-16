@@ -51,11 +51,6 @@ private:
     queue<Bus> mBusMaintenance;
     queue<Bus> wBusMaintenance;
 public:
-    // Add a comment to test github
-    // For Ibrahem
-    // Third test (Push both 2 tests)
-    // Ibrahem first commit
-    // Nothing meaningful
     void read_file(const char* filename, Event_To_Read* events, Parameters& parameters);
 };
 
