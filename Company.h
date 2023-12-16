@@ -14,7 +14,7 @@
 using namespace std;
 
 
-struct Event {
+struct Event_To_Read {
     char A_L;
     std::string type;
     std::string time;
@@ -46,7 +46,7 @@ class Company {
 private:
     queue<Bus> station0;
     Station *stations = new Station[50];
-//    queue<Event> eventList;
+//    queue<Event_To_Read> eventList;
     queue<Passenger> finishedPassengerList;
     queue<Bus> mBusMaintenance;
     queue<Bus> wBusMaintenance;
@@ -57,9 +57,9 @@ public:
     // Third test (Push both 2 tests)
     // Ibrahem first commit
     // Nothing meaningful
+    void read_file(const char* filename, Event_To_Read* events, Parameters& parameters);
 };
 
-void read_file(const char* filename, Event* events, Parameters& parameters);
 
 
 
