@@ -1,13 +1,15 @@
 //
 // Created by LENOVO on 10/12/2023.
 //
-
+#pragma once
 #ifndef DATA_STRUCTURE_PROJECT_PASSENGER_H
 #define DATA_STRUCTURE_PROJECT_PASSENGER_H
 #include "Time.h"
 #include <string>
 #include "Station.h"
 using namespace std;
+
+
 
 class Passenger {
 private:

@@ -4,7 +4,7 @@
 
 #ifndef PROJECT_UNIVERSITY_EVENT_H
 #define PROJECT_UNIVERSITY_EVENT_H
-
+#pragma once
 #include <string>
 #include "Time.h"
 #include "Station.h"

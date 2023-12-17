@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.3\bin\cmake\win\x64\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\LENOVO\CLionProjects\project_university
+CMAKE_SOURCE_DIR = C:\Users\Galal\CLionProjects\project_university
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Galal\CLionProjects\project_university\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/project_university.dir/depend.make
@@ -69,186 +69,186 @@ include CMakeFiles/project_university.dir/progress.make
 include CMakeFiles/project_university.dir/flags.make
 
 CMakeFiles/project_university.dir/main.cpp.obj: CMakeFiles/project_university.dir/flags.make
-CMakeFiles/project_university.dir/main.cpp.obj: C:/Users/LENOVO/CLionProjects/project_university/main.cpp
+CMakeFiles/project_university.dir/main.cpp.obj: C:/Users/Galal/CLionProjects/project_university/main.cpp
 CMakeFiles/project_university.dir/main.cpp.obj: CMakeFiles/project_university.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project_university.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/main.cpp.obj -MF CMakeFiles\project_university.dir\main.cpp.obj.d -o CMakeFiles\project_university.dir\main.cpp.obj -c C:\Users\LENOVO\CLionProjects\project_university\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Galal\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project_university.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/main.cpp.obj -MF CMakeFiles\project_university.dir\main.cpp.obj.d -o CMakeFiles\project_university.dir\main.cpp.obj -c C:\Users\Galal\CLionProjects\project_university\main.cpp
 
 CMakeFiles/project_university.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project_university.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LENOVO\CLionProjects\project_university\main.cpp > CMakeFiles\project_university.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Galal\CLionProjects\project_university\main.cpp > CMakeFiles\project_university.dir\main.cpp.i
 
 CMakeFiles/project_university.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project_university.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LENOVO\CLionProjects\project_university\main.cpp -o CMakeFiles\project_university.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Galal\CLionProjects\project_university\main.cpp -o CMakeFiles\project_university.dir\main.cpp.s
 
 CMakeFiles/project_university.dir/Company.cpp.obj: CMakeFiles/project_university.dir/flags.make
-CMakeFiles/project_university.dir/Company.cpp.obj: C:/Users/LENOVO/CLionProjects/project_university/Company.cpp
+CMakeFiles/project_university.dir/Company.cpp.obj: C:/Users/Galal/CLionProjects/project_university/Company.cpp
 CMakeFiles/project_university.dir/Company.cpp.obj: CMakeFiles/project_university.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project_university.dir/Company.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/Company.cpp.obj -MF CMakeFiles\project_university.dir\Company.cpp.obj.d -o CMakeFiles\project_university.dir\Company.cpp.obj -c C:\Users\LENOVO\CLionProjects\project_university\Company.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Galal\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project_university.dir/Company.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/Company.cpp.obj -MF CMakeFiles\project_university.dir\Company.cpp.obj.d -o CMakeFiles\project_university.dir\Company.cpp.obj -c C:\Users\Galal\CLionProjects\project_university\Company.cpp
 
 CMakeFiles/project_university.dir/Company.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project_university.dir/Company.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LENOVO\CLionProjects\project_university\Company.cpp > CMakeFiles\project_university.dir\Company.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Galal\CLionProjects\project_university\Company.cpp > CMakeFiles\project_university.dir\Company.cpp.i
 
 CMakeFiles/project_university.dir/Company.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project_university.dir/Company.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LENOVO\CLionProjects\project_university\Company.cpp -o CMakeFiles\project_university.dir\Company.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Galal\CLionProjects\project_university\Company.cpp -o CMakeFiles\project_university.dir\Company.cpp.s
 
 CMakeFiles/project_university.dir/Passenger.cpp.obj: CMakeFiles/project_university.dir/flags.make
-CMakeFiles/project_university.dir/Passenger.cpp.obj: C:/Users/LENOVO/CLionProjects/project_university/Passenger.cpp
+CMakeFiles/project_university.dir/Passenger.cpp.obj: C:/Users/Galal/CLionProjects/project_university/Passenger.cpp
 CMakeFiles/project_university.dir/Passenger.cpp.obj: CMakeFiles/project_university.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project_university.dir/Passenger.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/Passenger.cpp.obj -MF CMakeFiles\project_university.dir\Passenger.cpp.obj.d -o CMakeFiles\project_university.dir\Passenger.cpp.obj -c C:\Users\LENOVO\CLionProjects\project_university\Passenger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Galal\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project_university.dir/Passenger.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/Passenger.cpp.obj -MF CMakeFiles\project_university.dir\Passenger.cpp.obj.d -o CMakeFiles\project_university.dir\Passenger.cpp.obj -c C:\Users\Galal\CLionProjects\project_university\Passenger.cpp
 
 CMakeFiles/project_university.dir/Passenger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project_university.dir/Passenger.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LENOVO\CLionProjects\project_university\Passenger.cpp > CMakeFiles\project_university.dir\Passenger.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Galal\CLionProjects\project_university\Passenger.cpp > CMakeFiles\project_university.dir\Passenger.cpp.i
 
 CMakeFiles/project_university.dir/Passenger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project_university.dir/Passenger.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LENOVO\CLionProjects\project_university\Passenger.cpp -o CMakeFiles\project_university.dir\Passenger.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Galal\CLionProjects\project_university\Passenger.cpp -o CMakeFiles\project_university.dir\Passenger.cpp.s
 
 CMakeFiles/project_university.dir/Bus.cpp.obj: CMakeFiles/project_university.dir/flags.make
-CMakeFiles/project_university.dir/Bus.cpp.obj: C:/Users/LENOVO/CLionProjects/project_university/Bus.cpp
+CMakeFiles/project_university.dir/Bus.cpp.obj: C:/Users/Galal/CLionProjects/project_university/Bus.cpp
 CMakeFiles/project_university.dir/Bus.cpp.obj: CMakeFiles/project_university.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project_university.dir/Bus.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/Bus.cpp.obj -MF CMakeFiles\project_university.dir\Bus.cpp.obj.d -o CMakeFiles\project_university.dir\Bus.cpp.obj -c C:\Users\LENOVO\CLionProjects\project_university\Bus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Galal\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project_university.dir/Bus.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/Bus.cpp.obj -MF CMakeFiles\project_university.dir\Bus.cpp.obj.d -o CMakeFiles\project_university.dir\Bus.cpp.obj -c C:\Users\Galal\CLionProjects\project_university\Bus.cpp
 
 CMakeFiles/project_university.dir/Bus.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project_university.dir/Bus.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LENOVO\CLionProjects\project_university\Bus.cpp > CMakeFiles\project_university.dir\Bus.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Galal\CLionProjects\project_university\Bus.cpp > CMakeFiles\project_university.dir\Bus.cpp.i
 
 CMakeFiles/project_university.dir/Bus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project_university.dir/Bus.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LENOVO\CLionProjects\project_university\Bus.cpp -o CMakeFiles\project_university.dir\Bus.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Galal\CLionProjects\project_university\Bus.cpp -o CMakeFiles\project_university.dir\Bus.cpp.s
 
 CMakeFiles/project_university.dir/Event.cpp.obj: CMakeFiles/project_university.dir/flags.make
-CMakeFiles/project_university.dir/Event.cpp.obj: C:/Users/LENOVO/CLionProjects/project_university/Event.cpp
+CMakeFiles/project_university.dir/Event.cpp.obj: C:/Users/Galal/CLionProjects/project_university/Event.cpp
 CMakeFiles/project_university.dir/Event.cpp.obj: CMakeFiles/project_university.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/project_university.dir/Event.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/Event.cpp.obj -MF CMakeFiles\project_university.dir\Event.cpp.obj.d -o CMakeFiles\project_university.dir\Event.cpp.obj -c C:\Users\LENOVO\CLionProjects\project_university\Event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Galal\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/project_university.dir/Event.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/Event.cpp.obj -MF CMakeFiles\project_university.dir\Event.cpp.obj.d -o CMakeFiles\project_university.dir\Event.cpp.obj -c C:\Users\Galal\CLionProjects\project_university\Event.cpp
 
 CMakeFiles/project_university.dir/Event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project_university.dir/Event.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LENOVO\CLionProjects\project_university\Event.cpp > CMakeFiles\project_university.dir\Event.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Galal\CLionProjects\project_university\Event.cpp > CMakeFiles\project_university.dir\Event.cpp.i
 
 CMakeFiles/project_university.dir/Event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project_university.dir/Event.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LENOVO\CLionProjects\project_university\Event.cpp -o CMakeFiles\project_university.dir\Event.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Galal\CLionProjects\project_university\Event.cpp -o CMakeFiles\project_university.dir\Event.cpp.s
 
 CMakeFiles/project_university.dir/ArrivalEvent.cpp.obj: CMakeFiles/project_university.dir/flags.make
-CMakeFiles/project_university.dir/ArrivalEvent.cpp.obj: C:/Users/LENOVO/CLionProjects/project_university/ArrivalEvent.cpp
+CMakeFiles/project_university.dir/ArrivalEvent.cpp.obj: C:/Users/Galal/CLionProjects/project_university/ArrivalEvent.cpp
 CMakeFiles/project_university.dir/ArrivalEvent.cpp.obj: CMakeFiles/project_university.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/project_university.dir/ArrivalEvent.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/ArrivalEvent.cpp.obj -MF CMakeFiles\project_university.dir\ArrivalEvent.cpp.obj.d -o CMakeFiles\project_university.dir\ArrivalEvent.cpp.obj -c C:\Users\LENOVO\CLionProjects\project_university\ArrivalEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Galal\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/project_university.dir/ArrivalEvent.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/ArrivalEvent.cpp.obj -MF CMakeFiles\project_university.dir\ArrivalEvent.cpp.obj.d -o CMakeFiles\project_university.dir\ArrivalEvent.cpp.obj -c C:\Users\Galal\CLionProjects\project_university\ArrivalEvent.cpp
 
 CMakeFiles/project_university.dir/ArrivalEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project_university.dir/ArrivalEvent.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LENOVO\CLionProjects\project_university\ArrivalEvent.cpp > CMakeFiles\project_university.dir\ArrivalEvent.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Galal\CLionProjects\project_university\ArrivalEvent.cpp > CMakeFiles\project_university.dir\ArrivalEvent.cpp.i
 
 CMakeFiles/project_university.dir/ArrivalEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project_university.dir/ArrivalEvent.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LENOVO\CLionProjects\project_university\ArrivalEvent.cpp -o CMakeFiles\project_university.dir\ArrivalEvent.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Galal\CLionProjects\project_university\ArrivalEvent.cpp -o CMakeFiles\project_university.dir\ArrivalEvent.cpp.s
 
 CMakeFiles/project_university.dir/LeaveEvent.cpp.obj: CMakeFiles/project_university.dir/flags.make
-CMakeFiles/project_university.dir/LeaveEvent.cpp.obj: C:/Users/LENOVO/CLionProjects/project_university/LeaveEvent.cpp
+CMakeFiles/project_university.dir/LeaveEvent.cpp.obj: C:/Users/Galal/CLionProjects/project_university/LeaveEvent.cpp
 CMakeFiles/project_university.dir/LeaveEvent.cpp.obj: CMakeFiles/project_university.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/project_university.dir/LeaveEvent.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/LeaveEvent.cpp.obj -MF CMakeFiles\project_university.dir\LeaveEvent.cpp.obj.d -o CMakeFiles\project_university.dir\LeaveEvent.cpp.obj -c C:\Users\LENOVO\CLionProjects\project_university\LeaveEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Galal\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/project_university.dir/LeaveEvent.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/LeaveEvent.cpp.obj -MF CMakeFiles\project_university.dir\LeaveEvent.cpp.obj.d -o CMakeFiles\project_university.dir\LeaveEvent.cpp.obj -c C:\Users\Galal\CLionProjects\project_university\LeaveEvent.cpp
 
 CMakeFiles/project_university.dir/LeaveEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project_university.dir/LeaveEvent.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LENOVO\CLionProjects\project_university\LeaveEvent.cpp > CMakeFiles\project_university.dir\LeaveEvent.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Galal\CLionProjects\project_university\LeaveEvent.cpp > CMakeFiles\project_university.dir\LeaveEvent.cpp.i
 
 CMakeFiles/project_university.dir/LeaveEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project_university.dir/LeaveEvent.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LENOVO\CLionProjects\project_university\LeaveEvent.cpp -o CMakeFiles\project_university.dir\LeaveEvent.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Galal\CLionProjects\project_university\LeaveEvent.cpp -o CMakeFiles\project_university.dir\LeaveEvent.cpp.s
 
 CMakeFiles/project_university.dir/Time.cpp.obj: CMakeFiles/project_university.dir/flags.make
-CMakeFiles/project_university.dir/Time.cpp.obj: C:/Users/LENOVO/CLionProjects/project_university/Time.cpp
+CMakeFiles/project_university.dir/Time.cpp.obj: C:/Users/Galal/CLionProjects/project_university/Time.cpp
 CMakeFiles/project_university.dir/Time.cpp.obj: CMakeFiles/project_university.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/project_university.dir/Time.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/Time.cpp.obj -MF CMakeFiles\project_university.dir\Time.cpp.obj.d -o CMakeFiles\project_university.dir\Time.cpp.obj -c C:\Users\LENOVO\CLionProjects\project_university\Time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Galal\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/project_university.dir/Time.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/Time.cpp.obj -MF CMakeFiles\project_university.dir\Time.cpp.obj.d -o CMakeFiles\project_university.dir\Time.cpp.obj -c C:\Users\Galal\CLionProjects\project_university\Time.cpp
 
 CMakeFiles/project_university.dir/Time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project_university.dir/Time.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LENOVO\CLionProjects\project_university\Time.cpp > CMakeFiles\project_university.dir\Time.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Galal\CLionProjects\project_university\Time.cpp > CMakeFiles\project_university.dir\Time.cpp.i
 
 CMakeFiles/project_university.dir/Time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project_university.dir/Time.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LENOVO\CLionProjects\project_university\Time.cpp -o CMakeFiles\project_university.dir\Time.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Galal\CLionProjects\project_university\Time.cpp -o CMakeFiles\project_university.dir\Time.cpp.s
 
 CMakeFiles/project_university.dir/Station.cpp.obj: CMakeFiles/project_university.dir/flags.make
-CMakeFiles/project_university.dir/Station.cpp.obj: C:/Users/LENOVO/CLionProjects/project_university/Station.cpp
+CMakeFiles/project_university.dir/Station.cpp.obj: C:/Users/Galal/CLionProjects/project_university/Station.cpp
 CMakeFiles/project_university.dir/Station.cpp.obj: CMakeFiles/project_university.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/project_university.dir/Station.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/Station.cpp.obj -MF CMakeFiles\project_university.dir\Station.cpp.obj.d -o CMakeFiles\project_university.dir\Station.cpp.obj -c C:\Users\LENOVO\CLionProjects\project_university\Station.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Galal\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/project_university.dir/Station.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/Station.cpp.obj -MF CMakeFiles\project_university.dir\Station.cpp.obj.d -o CMakeFiles\project_university.dir\Station.cpp.obj -c C:\Users\Galal\CLionProjects\project_university\Station.cpp
 
 CMakeFiles/project_university.dir/Station.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project_university.dir/Station.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LENOVO\CLionProjects\project_university\Station.cpp > CMakeFiles\project_university.dir\Station.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Galal\CLionProjects\project_university\Station.cpp > CMakeFiles\project_university.dir\Station.cpp.i
 
 CMakeFiles/project_university.dir/Station.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project_university.dir/Station.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LENOVO\CLionProjects\project_university\Station.cpp -o CMakeFiles\project_university.dir\Station.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Galal\CLionProjects\project_university\Station.cpp -o CMakeFiles\project_university.dir\Station.cpp.s
 
 CMakeFiles/project_university.dir/LinkedList.cpp.obj: CMakeFiles/project_university.dir/flags.make
-CMakeFiles/project_university.dir/LinkedList.cpp.obj: C:/Users/LENOVO/CLionProjects/project_university/LinkedList.cpp
+CMakeFiles/project_university.dir/LinkedList.cpp.obj: C:/Users/Galal/CLionProjects/project_university/LinkedList.cpp
 CMakeFiles/project_university.dir/LinkedList.cpp.obj: CMakeFiles/project_university.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/project_university.dir/LinkedList.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/LinkedList.cpp.obj -MF CMakeFiles\project_university.dir\LinkedList.cpp.obj.d -o CMakeFiles\project_university.dir\LinkedList.cpp.obj -c C:\Users\LENOVO\CLionProjects\project_university\LinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Galal\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/project_university.dir/LinkedList.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/LinkedList.cpp.obj -MF CMakeFiles\project_university.dir\LinkedList.cpp.obj.d -o CMakeFiles\project_university.dir\LinkedList.cpp.obj -c C:\Users\Galal\CLionProjects\project_university\LinkedList.cpp
 
 CMakeFiles/project_university.dir/LinkedList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project_university.dir/LinkedList.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LENOVO\CLionProjects\project_university\LinkedList.cpp > CMakeFiles\project_university.dir\LinkedList.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Galal\CLionProjects\project_university\LinkedList.cpp > CMakeFiles\project_university.dir\LinkedList.cpp.i
 
 CMakeFiles/project_university.dir/LinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project_university.dir/LinkedList.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LENOVO\CLionProjects\project_university\LinkedList.cpp -o CMakeFiles\project_university.dir\LinkedList.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Galal\CLionProjects\project_university\LinkedList.cpp -o CMakeFiles\project_university.dir\LinkedList.cpp.s
 
 CMakeFiles/project_university.dir/Queue.cpp.obj: CMakeFiles/project_university.dir/flags.make
-CMakeFiles/project_university.dir/Queue.cpp.obj: C:/Users/LENOVO/CLionProjects/project_university/Queue.cpp
+CMakeFiles/project_university.dir/Queue.cpp.obj: C:/Users/Galal/CLionProjects/project_university/Queue.cpp
 CMakeFiles/project_university.dir/Queue.cpp.obj: CMakeFiles/project_university.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/project_university.dir/Queue.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/Queue.cpp.obj -MF CMakeFiles\project_university.dir\Queue.cpp.obj.d -o CMakeFiles\project_university.dir\Queue.cpp.obj -c C:\Users\LENOVO\CLionProjects\project_university\Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Galal\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/project_university.dir/Queue.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/Queue.cpp.obj -MF CMakeFiles\project_university.dir\Queue.cpp.obj.d -o CMakeFiles\project_university.dir\Queue.cpp.obj -c C:\Users\Galal\CLionProjects\project_university\Queue.cpp
 
 CMakeFiles/project_university.dir/Queue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project_university.dir/Queue.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LENOVO\CLionProjects\project_university\Queue.cpp > CMakeFiles\project_university.dir\Queue.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Galal\CLionProjects\project_university\Queue.cpp > CMakeFiles\project_university.dir\Queue.cpp.i
 
 CMakeFiles/project_university.dir/Queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project_university.dir/Queue.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LENOVO\CLionProjects\project_university\Queue.cpp -o CMakeFiles\project_university.dir\Queue.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Galal\CLionProjects\project_university\Queue.cpp -o CMakeFiles\project_university.dir\Queue.cpp.s
 
 CMakeFiles/project_university.dir/PriorityQueue.cpp.obj: CMakeFiles/project_university.dir/flags.make
-CMakeFiles/project_university.dir/PriorityQueue.cpp.obj: C:/Users/LENOVO/CLionProjects/project_university/PriorityQueue.cpp
+CMakeFiles/project_university.dir/PriorityQueue.cpp.obj: C:/Users/Galal/CLionProjects/project_university/PriorityQueue.cpp
 CMakeFiles/project_university.dir/PriorityQueue.cpp.obj: CMakeFiles/project_university.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/project_university.dir/PriorityQueue.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/PriorityQueue.cpp.obj -MF CMakeFiles\project_university.dir\PriorityQueue.cpp.obj.d -o CMakeFiles\project_university.dir\PriorityQueue.cpp.obj -c C:\Users\LENOVO\CLionProjects\project_university\PriorityQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Galal\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/project_university.dir/PriorityQueue.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/PriorityQueue.cpp.obj -MF CMakeFiles\project_university.dir\PriorityQueue.cpp.obj.d -o CMakeFiles\project_university.dir\PriorityQueue.cpp.obj -c C:\Users\Galal\CLionProjects\project_university\PriorityQueue.cpp
 
 CMakeFiles/project_university.dir/PriorityQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project_university.dir/PriorityQueue.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LENOVO\CLionProjects\project_university\PriorityQueue.cpp > CMakeFiles\project_university.dir\PriorityQueue.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Galal\CLionProjects\project_university\PriorityQueue.cpp > CMakeFiles\project_university.dir\PriorityQueue.cpp.i
 
 CMakeFiles/project_university.dir/PriorityQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project_university.dir/PriorityQueue.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LENOVO\CLionProjects\project_university\PriorityQueue.cpp -o CMakeFiles\project_university.dir\PriorityQueue.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Galal\CLionProjects\project_university\PriorityQueue.cpp -o CMakeFiles\project_university.dir\PriorityQueue.cpp.s
 
 CMakeFiles/project_university.dir/NpPassengerQueue.cpp.obj: CMakeFiles/project_university.dir/flags.make
-CMakeFiles/project_university.dir/NpPassengerQueue.cpp.obj: C:/Users/LENOVO/CLionProjects/project_university/NpPassengerQueue.cpp
+CMakeFiles/project_university.dir/NpPassengerQueue.cpp.obj: C:/Users/Galal/CLionProjects/project_university/NpPassengerQueue.cpp
 CMakeFiles/project_university.dir/NpPassengerQueue.cpp.obj: CMakeFiles/project_university.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/project_university.dir/NpPassengerQueue.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/NpPassengerQueue.cpp.obj -MF CMakeFiles\project_university.dir\NpPassengerQueue.cpp.obj.d -o CMakeFiles\project_university.dir\NpPassengerQueue.cpp.obj -c C:\Users\LENOVO\CLionProjects\project_university\NpPassengerQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Galal\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/project_university.dir/NpPassengerQueue.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_university.dir/NpPassengerQueue.cpp.obj -MF CMakeFiles\project_university.dir\NpPassengerQueue.cpp.obj.d -o CMakeFiles\project_university.dir\NpPassengerQueue.cpp.obj -c C:\Users\Galal\CLionProjects\project_university\NpPassengerQueue.cpp
 
 CMakeFiles/project_university.dir/NpPassengerQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/project_university.dir/NpPassengerQueue.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\LENOVO\CLionProjects\project_university\NpPassengerQueue.cpp > CMakeFiles\project_university.dir\NpPassengerQueue.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Galal\CLionProjects\project_university\NpPassengerQueue.cpp > CMakeFiles\project_university.dir\NpPassengerQueue.cpp.i
 
 CMakeFiles/project_university.dir/NpPassengerQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/project_university.dir/NpPassengerQueue.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\LENOVO\CLionProjects\project_university\NpPassengerQueue.cpp -o CMakeFiles\project_university.dir\NpPassengerQueue.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Galal\CLionProjects\project_university\NpPassengerQueue.cpp -o CMakeFiles\project_university.dir\NpPassengerQueue.cpp.s
 
 # Object files for target project_university
 project_university_OBJECTS = \
@@ -286,7 +286,7 @@ project_university.exe: CMakeFiles/project_university.dir/build.make
 project_university.exe: CMakeFiles/project_university.dir/linkLibs.rsp
 project_university.exe: CMakeFiles/project_university.dir/objects1.rsp
 project_university.exe: CMakeFiles/project_university.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable project_university.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Galal\CLionProjects\project_university\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable project_university.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\project_university.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -298,6 +298,6 @@ CMakeFiles/project_university.dir/clean:
 .PHONY : CMakeFiles/project_university.dir/clean
 
 CMakeFiles/project_university.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\LENOVO\CLionProjects\project_university C:\Users\LENOVO\CLionProjects\project_university C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug C:\Users\LENOVO\CLionProjects\project_university\cmake-build-debug\CMakeFiles\project_university.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Galal\CLionProjects\project_university C:\Users\Galal\CLionProjects\project_university C:\Users\Galal\CLionProjects\project_university\cmake-build-debug C:\Users\Galal\CLionProjects\project_university\cmake-build-debug C:\Users\Galal\CLionProjects\project_university\cmake-build-debug\CMakeFiles\project_university.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/project_university.dir/depend
 

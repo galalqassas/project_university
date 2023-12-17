@@ -1,6 +1,6 @@
 #ifndef FOR_TRYING_LINKEDLIST_H
 #define FOR_TRYING_LINKEDLIST_H
-
+#pragma once
 #include <iostream>
 using namespace std;
 

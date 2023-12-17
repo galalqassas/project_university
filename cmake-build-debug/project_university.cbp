@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Galal/CLionProjects/project_university/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="project_university">
-				<Option output="C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/project_university.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug"/>
+				<Option output="C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/project_university.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Galal/CLionProjects/project_university/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -31,18 +31,17 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 project_university"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 project_university"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="project_university/fast">
-				<Option output="C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/project_university.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug"/>
+				<Option output="C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/project_university.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Galal/CLionProjects/project_university/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,112 +53,111 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 project_university/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 project_university/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Galal/CLionProjects/project_university/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Galal/CLionProjects/project_university/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/LENOVO/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Galal/CLionProjects/project_university/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/ArrivalEvent.cpp">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/ArrivalEvent.cpp">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/ArrivalEvent.h">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/ArrivalEvent.h">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/Bus.cpp">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/Bus.cpp">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/Bus.h">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/Bus.h">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/Company.cpp">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/Company.cpp">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/Company.h">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/Company.h">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/Event.cpp">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/Event.cpp">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/Event.h">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/Event.h">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/LeaveEvent.cpp">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/LeaveEvent.cpp">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/LeaveEvent.h">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/LeaveEvent.h">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/LinkedList.cpp">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/LinkedList.cpp">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/LinkedList.h">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/LinkedList.h">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/NpPassengerQueue.cpp">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/NpPassengerQueue.cpp">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/NpPassengerQueue.h">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/NpPassengerQueue.h">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/Passenger.cpp">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/Passenger.cpp">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/Passenger.h">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/Passenger.h">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/PriorityQueue.cpp">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/PriorityQueue.cpp">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/PriorityQueue.h">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/PriorityQueue.h">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/Queue.cpp">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/Queue.cpp">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/Queue.h">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/Queue.h">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/Station.cpp">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/Station.cpp">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/Station.h">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/Station.h">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/Time.cpp">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/Time.cpp">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/Time.h">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/Time.h">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/main.cpp">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/main.cpp">
 			<Option target="project_university"/>
 		</Unit>
-		<Unit filename="C:/Users/LENOVO/CLionProjects/project_university/CMakeLists.txt">
+		<Unit filename="C:/Users/Galal/CLionProjects/project_university/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

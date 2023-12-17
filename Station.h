@@ -4,13 +4,13 @@
 
 #ifndef PROJECT_UNIVERSITY_STATION_H
 #define PROJECT_UNIVERSITY_STATION_H
-
-#include <queue>
-#include <list>
+#pragma once
 #include "Passenger.h"
 #include "Bus.h"
 #include "PriorityQueue.h"
 #include "Queue.h"
+class Passenger;
+class Bus;
 using namespace std;
 class Station {
 private:
