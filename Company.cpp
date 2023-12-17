@@ -28,8 +28,6 @@ void Company:: read_file(const char* filename, Parameters& parameters) {
         file >> events[i].strtStation >> events[i].endStation;
         char sptype;
         file >> sptype;
-        if (sptype != '\n')
-            file.ignore();
         file.ignore();
         std::getline(file, events[i].condition);
 
@@ -50,7 +48,7 @@ void Company:: read_file(const char* filename, Parameters& parameters) {
         if (p.getPassengerType() == "NP")
             stations[events[i].strtStation].addPassengerNp(p);
         else if (p.getPassengerType() == "SP")
-            stations[events[i].strtStation].addPassengerSp(p, sptype);
+            stations[events[i].strtStation].addPassengerSp(p, "Aged");
         else if (p.getPassengerType() == "WP")
             stations[events[i].strtStation].addPassengerWp(p);
     }

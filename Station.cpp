@@ -3,6 +3,7 @@
 //
 
 #include "Station.h"
+#include "Passenger.h"
 
 short Station::getStationNumber() const {
     return stationNumber;
@@ -107,7 +108,7 @@ void Station::addPassengerNp(Passenger passenger) {
     if (isPassengerForward(passenger))
         waitingNPForward.enqueue(passenger);
     else
-        waitingNPForward.enqueue(passenger);
+        waitingNPBackward.enqueue(passenger);
 }
 
 bool Station::isPassengerForward(const Passenger &passenger) const {
