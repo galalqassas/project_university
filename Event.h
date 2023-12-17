@@ -34,7 +34,6 @@ public:
     // setters
     void setTime(Time time);
     void setId(int id);
-
     void setPtype(string ptype);
 };
 

@@ -44,8 +44,6 @@ public:
     const Queue<Bus> &getAvailableBusesForward() const;
     void setAvailableBusesForward(const Queue<Bus> &availableBusesForward);
     const Queue<Bus> &getAvailableBusesBackward() const;
-
-    //
     void setAvailableBusesBackward(const Queue<Bus> &availableBusesBackward);
     void addPassengerWp(Passenger passenger);
     void addPassengerSp(Passenger passenger, string type);

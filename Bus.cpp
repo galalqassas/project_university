@@ -55,8 +55,7 @@ void Bus::getPrioritysp(string passenger_type) {
 
 void Bus::add_passenger(Passenger passenger, string passenger_type) {
     if (passenger.getStartStation() == currentStation){
-        int priority = abs(passenger.getEndStation().getStationNumber()
-                - passenger.getStartStation().getStationNumber());
+        int priority = abs(passenger.getEndStation()- passenger.getStartStation());
         passengers.enqueue(passenger, priority);
     }
     N++;
@@ -75,8 +74,7 @@ int Bus::getSPPriority(string sp_type) {
 }
 
 void Bus::remove_passenger(Passenger passenger) {
-    int priority = abs(passenger.getEndStation().getStationNumber()
-                       - passenger.getStartStation().getStationNumber());
+    int priority = abs(passenger.getEndStation()- passenger.getStartStation());
     passengers.dequeue();
     N--;
 }

@@ -30,7 +30,9 @@ public:
     int toSeconds() const;
     Time fromSeconds(int seconds);
     int operator-(const Time& other) const;
+    Time operator+ (const Time& t);
     ~Time();
+    Time (short h, short m, short s);
 };
 
 

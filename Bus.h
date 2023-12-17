@@ -29,7 +29,7 @@ private:
 public:
     Bus();
     Bus(string busType, int busCapacity);
-    void setBusType(std::string bt);
+    void setBusType(string bt);
     void setBusCapacity(int bc);
     string getBusType() const;
     int getBusCapacity() const;

@@ -110,10 +110,6 @@ void Station::addPassengerNp(Passenger passenger) {
         waitingNPForward.enqueue(passenger);
 }
 
-void Station::addBusForward(Bus bus) {
-    if (bus.g)
-}
-
 bool Station::isPassengerForward(const Passenger &passenger) const {
     return passenger.getEndStation() > passenger.getStartStation();
 }

@@ -23,14 +23,6 @@ int Event::getId() const {
     return id;
 }
 
-Station Event::getStart() const {
-    return start;
-}
-
-Station Event::getEnd() const {
-    return end;
-}
-
 string Event::getPtype() const {
     return ptype;
 }

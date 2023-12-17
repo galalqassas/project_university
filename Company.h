@@ -16,12 +16,12 @@ using namespace std;
 
 struct Event_To_Read {
     char A_L;
-    std::string type;
-    std::string time;
-    int bus;
-    int station;
-    int passengers;
-    std::string condition;
+    string type;
+    string time;
+    int id;
+    int strtStation;
+    int endStation;
+    string condition;
 };
 
 struct Parameters {

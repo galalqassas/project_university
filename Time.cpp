@@ -86,3 +86,28 @@ int Time::operator-(const Time& other) const {
     int secondsOther = other.toSeconds();
     return secondsThis - secondsOther;
 }
+
+Time Time::operator+(const Time &t) {
+    Time result;
+    result.sec = sec + t.sec;
+    if (result.sec >= 60) {
+        result.sec -= 60;
+        result.min += 1;
+    }
+    result.min += min + t.min;
+    if (result.min >= 60) {
+        result.min -= 60;
+        result.hour += 1;
+    }
+    result.hour += hour + t.hour;
+    if (result.hour >= 24) {
+        result.hour -= 24;
+    }
+    return result;
+}
+
+Time::Time (short h, short m, short s) {
+    hour = h;
+    min = m;
+    sec = s;
+}

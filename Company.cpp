@@ -6,15 +6,11 @@
 #include <fstream>
 #include <string>
 #include "Company.h"
-#include "ArrivalEvent.h"
-#include "LeaveEvent.h"
-#include "Passenger.h"
-using namespace std;
 
 void Company:: read_file(const char* filename, Parameters& parameters) {
-    ifstream file(filename);
+    std::ifstream file(filename);
     if (!file.is_open()) {
-        cerr << "Error opening file: " << filename << endl;
+        std::cerr << "Error opening file: " << filename << std::endl;
         return;
     }
 
@@ -26,46 +22,39 @@ void Company:: read_file(const char* filename, Parameters& parameters) {
 
     int num_events;
     file >> num_events;
-    char eventType;
-    file >> eventType;
-    if (eventType == 'A')
-        ArrivalEvent event;
-    if (eventType == 'L')
-        LeaveEvent event;
-
+    Event_To_Read events[num_events];
     for (int i = 0; i < num_events; ++i) {
+        file >> events[i].A_L >> events[i].type >> events[i].time >> events[i].id;
+        file >> events[i].strtStation >> events[i].endStation;
+        char sptype;
+        file >> sptype;
+        if (sptype != '\n')
+            file.ignore();
+        file.ignore();
+        std::getline(file, events[i].condition);
+
         Passenger p;
-        file >>  >> events[i].time >> events[i].bus;
-        file >> events[i].station >> events[i].passengers;
-        // Read the condition field
-        file.ignore();  // Ignore the space after passengers
-        getline(file, events[i].condition);
+        p.setPassengerType(events[i].type);
+
+        string hour = events[i].time.substr(0, 1);
+        string minute = events[i].time.substr(3, 2);
+        Time t;
+        t.setHour(stoi(hour));
+        t.setMin(stoi(minute));
+        t.setSec(0);
+        p.setArrivalTime(t);
+        p.setId(events[i].id);
+        p.setStartStation(events[i].strtStation);
+        p.setEndStation(events[i].endStation);
+
+        if (p.getPassengerType() == "NP")
+            stations[events[i].strtStation].addPassengerNp(p);
+        else if (p.getPassengerType() == "SP")
+            stations[events[i].strtStation].addPassengerSp(p, sptype);
+        else if (p.getPassengerType() == "WP")
+            stations[events[i].strtStation].addPassengerWp(p);
     }
     file.close();
-
-
 }
 
-/*
-   int num_events;
-    file >> num_events;
-    char eventType;
-    file >> eventType;
-    if (eventType == 'A')
-        ArrivalEvent event;
-    if (eventType == 'L')
-        LeaveEvent event;
 
-    for (int i = 0; i < num_events; ++i) {
-        Passenger p;
-        string str;
-        file >> str;
-        p.setPassengerType(str) >>
-
-        events[i].time >> events[i].bus;
-        file >> events[i].station >> events[i].passengers;
-        // Read the condition field
-        file.ignore();  // Ignore the space after passengers
-        getline(file, events[i].condition);
-    }
- */
