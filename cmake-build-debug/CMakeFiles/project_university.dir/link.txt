@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2023.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\project_university.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\project_university.dir/objects.a @CMakeFiles\project_university.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\project_university.dir/objects.a -Wl,--no-whole-archive -o project_university.exe -Wl,--out-implib,libproject_university.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\project_university.dir\linkLibs.rsp
