@@ -9,7 +9,7 @@
 #include <queue>
 #include "Bus.h"
 #include "Passenger.h"
-#include <list>
+#include "Event.h"
 //#include "Station.h"
 using namespace std;
 
@@ -39,19 +39,16 @@ struct Parameters {
 };
 
 
-
-
-
 class Company {
 private:
     queue<Bus> station0;
     Station *stations = new Station[50];
-//    queue<Event_To_Read> eventList;
+    queue<Event> eventList;
     queue<Passenger> finishedPassengerList;
     queue<Bus> mBusMaintenance;
     queue<Bus> wBusMaintenance;
 public:
-    void read_file(const char* filename, Event_To_Read* events, Parameters& parameters);
+    void read_file(const char* filename, Parameters& parameters);
 };
 
 

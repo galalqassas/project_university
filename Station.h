@@ -24,7 +24,7 @@ private:
     Queue<Bus> availableBusesForward;
     Queue<Bus> availableBusesBackward;
     int getSPPriority(string sp_type);
-    bool isForward(const Passenger &passenger) const;
+    bool isPassengerForward(const Passenger &passenger) const;
 public:
     // getters and setters
     short getStationNumber() const;
@@ -49,8 +49,8 @@ public:
     void setAvailableBusesBackward(const Queue<Bus> &availableBusesBackward);
     void addPassengerWp(Passenger passenger);
     void addPassengerSp(Passenger passenger, string type);
-
-
+    void addPassengerNp(Passenger passenger);
+    void addBusForward(Bus bus);
     void removePassenger(Passenger passenger, string sp_type);
 
 };

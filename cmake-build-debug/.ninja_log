@@ -1,14 +1,8 @@
 # ninja log v5
 10	281	7240311963972801	CMakeFiles/project_university.dir/Bus.cpp.obj	5c29633cadae3b1c
 195	274	7240302725946413	should_work.exe	a53735eaaeac22b8
-4	338	7240311964550857	CMakeFiles/project_university.dir/main.cpp.obj	e647b4210167333a
-41	370	7240311964859843	CMakeFiles/project_university.dir/LinkedList.cpp.obj	5bb07cf257f44839
-48	359	7240311964760171	CMakeFiles/project_university.dir/PriorityQueue.cpp.obj	dc825bc128d860e5
-36	375	7240311964919638	CMakeFiles/project_university.dir/Time.cpp.obj	2eb49c0f914d102b
-30	398	7240311965138889	CMakeFiles/project_university.dir/Queue.cpp.obj	f83412fd5311923e
-35	716	7243857066648089	CMakeFiles/project_university.dir/Time.cpp.obj	fe303ef145f7269a
-10	717	7243857066648089	CMakeFiles/project_university.dir/main.cpp.obj	68533c9c0f467c00
-42	718	7243857066658061	CMakeFiles/project_university.dir/LinkedList.cpp.obj	98749cd15caf79ac
-38	718	7243857066668028	CMakeFiles/project_university.dir/Queue.cpp.obj	ab26cd9f211f3538
-40	718	7243857066668028	CMakeFiles/project_university.dir/PriorityQueue.cpp.obj	4f01b975cec19a9c
 1	270	7243881828322984	CMakeFiles/project_university.dir/main.cpp.obj	68533c9c0f467c00
+42	718	7243857066658061	CMakeFiles/project_university.dir/LinkedList.cpp.obj	98749cd15caf79ac
+40	718	7243857066668028	CMakeFiles/project_university.dir/PriorityQueue.cpp.obj	4f01b975cec19a9c
+35	716	7243857066648089	CMakeFiles/project_university.dir/Time.cpp.obj	fe303ef145f7269a
+38	718	7243857066668028	CMakeFiles/project_university.dir/Queue.cpp.obj	ab26cd9f211f3538

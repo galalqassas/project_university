@@ -77,7 +77,8 @@ void Station::setAvailableBusesBackward(const Queue<Bus> &availableBusesBackward
 }
 
 void Station::addPassengerWp(Passenger passenger) {
-    if (isForward(passenger))
+
+    if (isPassengerForward(passenger))
         waitingWcPForward.enqueue(passenger);
     else
         waitingWcPBackward.enqueue(passenger);
@@ -96,10 +97,25 @@ int Station::getSPPriority(string sp_type) {
 
 void Station::addPassengerSp(Passenger passenger, string type) {
     int priority = getSPPriority(type);
-    if (isForward(passenger))
+    if (isPassengerForward(passenger))
         waitingSPForward.enqueue(passenger, priority);
     else
         waitingSPBackward.enqueue(passenger, priority);
+}
+
+void Station::addPassengerNp(Passenger passenger) {
+    if (isPassengerForward(passenger))
+        waitingNPForward.enqueue(passenger);
+    else
+        waitingNPForward.enqueue(passenger);
+}
+
+void Station::addBusForward(Bus bus) {
+    if (bus.g)
+}
+
+bool Station::isPassengerForward(const Passenger &passenger) const {
+    return passenger.getEndStation() > passenger.getStartStation();
 }
 
 
@@ -128,7 +144,7 @@ void Station::addPassenger(Passenger passenger, string sp_type) {
     }
 }
 
-bool Station::isForward(const Passenger &passenger) const {
+bool Station::isPassengerForward(const Passenger &passenger) const {
     return passenger.getEndStation() > passenger.getStartStation();
 }
 

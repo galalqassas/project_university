@@ -10,7 +10,9 @@
 
 class ArrivalEvent : public Event {
 public:
-    // constructor
+    ArrivalEvent();
+
+// constructor
     ArrivalEvent(Time time, int id, int start, int end, string ptype);
     void process() override;
     void print() override;

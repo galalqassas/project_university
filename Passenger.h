@@ -19,7 +19,6 @@ private:
     string Passenger_Type;
     string Special_Type;
     int Id;
-
 public:
     Passenger(const Time& arrivalTime, const Time& getOnTime, const Time& getOffTime, int startStation, int &endStation, const string& passengerType,string Special_Type,int id);
     Time getArrivalTime() const;
@@ -38,6 +37,8 @@ public:
     string getSpecialType() const;
     void setId(int id);
     int getId() const;
+
+    Passenger();
 };
 
 

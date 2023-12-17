@@ -39,11 +39,11 @@ void Bus::setPassengerNumber(int passengerNumber) {
     Passenger_number = passengerNumber;
 }
 
-const Station &Bus::getCurrentStation() const {
+const int &Bus::getCurrentStation() const {
     return currentStation;
 }
 
-void Bus::setCurrentStation(const Station &currentStation) {
+void Bus::setCurrentStation(const int &currentStation) {
     Bus::currentStation = currentStation;
 }
 

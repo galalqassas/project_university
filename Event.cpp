@@ -8,14 +8,6 @@
 #include <iostream>
 using namespace std;
 
-// constructor
-Event::Event(Time time, int id, Station start, Station end, string ptype) {
-    this->time = time;
-    this->id = id;
-    this->start = start;
-    this->end = end;
-    this->ptype = ptype;
-}
 
 // virtual destructor
 Event::~Event() {
@@ -51,15 +43,27 @@ void Event::setId(int id) {
     this->id = id;
 }
 
-void Event::setStart(Station start) {
-    this->start = start;
-}
-
-void Event::setEnd(Station end) {
-    this->end = end;
-}
-
 void Event::setPtype(string ptype) {
     this->ptype = ptype;
 }
 
+// constructor
+Event::Event() {
+
+}
+
+int Event::getStart() const {
+    return start;
+}
+
+void Event::setStart(int start) {
+    Event::start = start;
+}
+
+int Event::getAnEnd() const {
+    return end;
+}
+
+void Event::setAnEnd(int anEnd) {
+    end = anEnd;
+}

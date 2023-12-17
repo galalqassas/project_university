@@ -23,7 +23,7 @@ private:
     int Passenger_number; // number of passenger travelled on this bus
     MaintenanceTime maintenance;
     PriorityQueue<Passenger> passengers; // moving passengers
-    Station currentStation;
+    int currentStation;
     void getPrioritysp(string passenger_type);
     int getSPPriority(string sp_type);
 public:
@@ -37,8 +37,8 @@ public:
     void setN(int n);
     int getPassengerNumber() const;
     void setPassengerNumber(int passengerNumber);
-    const Station &getCurrentStation() const;
-    void setCurrentStation(const Station &currentStation);
+    const int& getCurrentStation() const;
+    void setCurrentStation(const int &currentStation);
     void add_passenger(Passenger passenger, string passenger_type);
     void remove_passenger(Passenger passenger);
 };

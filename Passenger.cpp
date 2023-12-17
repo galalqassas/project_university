@@ -76,6 +76,10 @@ int Passenger::getId() const{
     return Id;
 }
 
+Passenger::Passenger() {
+
+}
+
 
 
 

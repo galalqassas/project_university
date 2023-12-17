@@ -10,10 +10,8 @@
 
 class LeaveEvent : public Event {
 public:
-    LeaveEvent(string time, int id, int start);
-    LeaveEvent(Time time, int id, int start);
+    LeaveEvent();
     void process() override;
-    void print() override;
 };
 
 

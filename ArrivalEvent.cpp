@@ -21,3 +21,7 @@ void ArrivalEvent::process() {
 void ArrivalEvent::print() {
     cout << "Id = " << getId() << ", start = " << getStart() << ", end = " << getEnd() << ", ptype = " << getPtype() << endl;
 }
+
+ArrivalEvent::ArrivalEvent() {
+
+}
