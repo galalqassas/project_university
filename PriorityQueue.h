@@ -1,7 +1,7 @@
 //
 // Created by PC on 12/11/2023.
 //
-
+#pragma once
 #ifndef PROJECT_UNIVERSITY_PRIORITYQUEUE_H
 #define PROJECT_UNIVERSITY_PRIORITYQUEUE_H
 

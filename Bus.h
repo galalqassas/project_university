@@ -1,13 +1,15 @@
 //
 // Created by LENOVO on 10/12/2023.
 //
-
+#pragma once
 #ifndef DATA_STRUCTURE_PROJECT_BUS_H
 #define DATA_STRUCTURE_PROJECT_BUS_H
 
+#include "Passenger.h"
+#include "PriorityQueue.h"
 #include "LinkedList.h"
 #include <string>
-#include "Passenger.h"
+class Passenger;
 using namespace std;
 
 struct MaintenanceTime {
