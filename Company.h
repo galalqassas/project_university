@@ -6,8 +6,8 @@
 #define PROJECT_UNIVERSITY_COMPANY_H
 
 #include <iostream>
-#include <queue>
 #include "Bus.h"
+#include "Queue.h"
 #include "Passenger.h"
 #include "Event.h"
 //#include "Station.h"
@@ -41,14 +41,14 @@ struct Parameters {
 
 class Company {
 private:
-    queue<Bus> station0;
+    Queue<Bus> station0;
     Station *stations = new Station[50];
-    queue<Event> eventList;
-    queue<Passenger> finishedPassengerList;
-    queue<Bus> mBusMaintenance;
-    queue<Bus> wBusMaintenance;
+    Queue<Event> eventQueue;
+    Queue<Passenger> finishedPassengerList;
+    Queue<Bus> mBusMaintenance;
+    Queue<Bus> wBusMaintenance;
 public:
-    void read_file(const char* filename, Parameters& parameters);
+    void read_file(const char* filename, Parameters& eventParameters);
 };
 
 

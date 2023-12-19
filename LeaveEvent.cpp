@@ -7,10 +7,9 @@
 #include <iostream>
 using namespace std;
 
-void LeaveEvent::process() {
-
-}
-
-LeaveEvent::LeaveEvent() {
-
+Passenger LeaveEvent::process() {
+    Passenger new_passenger;
+    new_passenger.setStartStation(start);
+    new_passenger.setId(id);
+    return new_passenger;
 }

@@ -6,53 +6,94 @@
 #include <fstream>
 #include <string>
 #include "Company.h"
+#include "ArrivalEvent.h"
+#include "LeaveEvent.h"
 
-void Company:: read_file(const char* filename, Parameters& parameters) {
-    std::ifstream file(filename);
+void Company:: read_file(const char* filename, Parameters& eventParameters) {
+    ifstream file(filename);
     if (!file.is_open()) {
-        std::cerr << "Error opening file: " << filename << std::endl;
+        cerr << "Error opening file: " << filename << endl;
         return;
     }
 
-    file >> parameters.num_stations >> parameters.time_between_stations;
-    file >> parameters.num_WBuses >> parameters.num_MBuses;
-    file >> parameters.capacity_WBus >> parameters.capacity_MBus;
-    file >> parameters.trips_before_checkup >> parameters.checkup_duration_WBus >> parameters.checkup_duration_MBus;
-    file >> parameters.max_waiting_time >> parameters.get_on_off_time;
+    file >> eventParameters.num_stations >> eventParameters.time_between_stations;
+    file >> eventParameters.num_WBuses >> eventParameters.num_MBuses;
+    file >> eventParameters.capacity_WBus >> eventParameters.capacity_MBus;
+    file >> eventParameters.trips_before_checkup >> eventParameters.checkup_duration_WBus
+         >> eventParameters.checkup_duration_MBus;
+    file >> eventParameters.max_waiting_time >> eventParameters.get_on_off_time;
 
     int num_events;
     file >> num_events;
-    Event_To_Read events[num_events];
+//    Event_To_Read events[num_events];
     for (int i = 0; i < num_events; ++i) {
-        file >> events[i].A_L >> events[i].type >> events[i].time >> events[i].id;
-        file >> events[i].strtStation >> events[i].endStation;
-        char sptype;
-        file >> sptype;
-        file.ignore();
-        std::getline(file, events[i].condition);
+        char eventType;
+        file >> eventType;
+        if (eventType == 'A') {
+            ArrivalEvent ae;
+            string type, sptype;
+            string atime;
+            int id;
+            int start;
+            int end;
+            file >> type;
+            ae.setPtype(type);
+            //
+            file >> atime;
+            int hour = stoi(atime.substr(0, 1));
+            int minute = stoi(atime.substr(2, 3));
+            Time t(hour, minute, 0);
+            ae.setTime(t);
+            //
+            file >> id;
+            ae.setId(id);
+            //
+            file >> start;
+            ae.setStart(start);
+            //
+            file >> end;
+            ae.setAnEnd(end);
 
-        Passenger p;
-        p.setPassengerType(events[i].type);
+            file >> sptype;
+            if (sptype != "\n")
+                ae.setSPtype(sptype);
 
-        string hour = events[i].time.substr(0, 1);
-        string minute = events[i].time.substr(3, 2);
-        Time t;
-        t.setHour(stoi(hour));
-        t.setMin(stoi(minute));
-        t.setSec(0);
-        p.setArrivalTime(t);
-        p.setId(events[i].id);
-        p.setStartStation(events[i].strtStation);
-        p.setEndStation(events[i].endStation);
-
-        if (p.getPassengerType() == "NP")
-            stations[events[i].strtStation].addPassengerNp(p);
-        else if (p.getPassengerType() == "SP")
-            stations[events[i].strtStation].addPassengerSp(p, "Aged");
-        else if (p.getPassengerType() == "WP")
-            stations[events[i].strtStation].addPassengerWp(p);
+//            eventQueue.enqueue(ae);
+        } else if (eventType == 'L') {
+            LeaveEvent le;
+        }
     }
-    file.close();
+/*
+    file >> events[i].type >> events[i].time >> events[i].id;
+    file >> events[i].strtStation >> events[i].endStation;
+    char sptype;
+    file >> sptype;
+    file.ignore();
+    std::getline(file, events[i].condition);
+
+    Passenger p;
+    p.setPassengerType(events[i].type);
+
+    string hour = events[i].time.substr(0, 1);
+    string minute = events[i].time.substr(3, 2);
+    Time t;
+    t.setHour(stoi(hour));
+    t.setMin(stoi(minute));
+    t.setSec(0);
+    p.setArrivalTime(t);
+    p.setId(events[i].id);
+    p.setStartStation(events[i].strtStation);
+    p.setEndStation(events[i].endStation);
+
+    if (p.getPassengerType() == "NP")
+        stations[events[i].strtStation].addPassengerNp(&p);
+    else if (p.getPassengerType() == "SP")
+        stations[events[i].strtStation].addPassengerSp(&p, "Aged");
+    else if (p.getPassengerType() == "WP")
+        stations[events[i].strtStation].addPassengerWp(&p);
+    }
+    file.close(); */
+
+
+
 }
-
-

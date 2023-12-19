@@ -8,40 +8,20 @@
 #include <iostream>
 using namespace std;
 
-
-// virtual destructor
-Event::~Event() {
-    // nothing to do here
+const Time &Event::getTime() const {
+    return time;
 }
 
-// getters and setters
-Time Event::getTime() const {
-    return time;
+void Event::setTime(const Time &time) {
+    Event::time = time;
 }
 
 int Event::getId() const {
     return id;
 }
 
-string Event::getPtype() const {
-    return ptype;
-}
-
-void Event::setTime(Time time) {
-    this->time = time;
-}
-
 void Event::setId(int id) {
-    this->id = id;
-}
-
-void Event::setPtype(string ptype) {
-    this->ptype = ptype;
-}
-
-// constructor
-Event::Event() {
-
+    Event::id = id;
 }
 
 int Event::getStart() const {
@@ -50,12 +30,4 @@ int Event::getStart() const {
 
 void Event::setStart(int start) {
     Event::start = start;
-}
-
-int Event::getAnEnd() const {
-    return end;
-}
-
-void Event::setAnEnd(int anEnd) {
-    end = anEnd;
 }

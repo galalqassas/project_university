@@ -9,12 +9,21 @@
 
 
 class ArrivalEvent : public Event {
+private:
+    int end; // end station (only for arrival events)
+    string ptype; // passenger type (SP, WP, NP) (only for arrival events)
+    string SPtype; // extra word for an SP type
 public:
     ArrivalEvent();
 
-// constructor
-    void process() override;
-    void print() override;
+public:
+    int getAnEnd() const;
+    void setAnEnd(int anEnd);
+    const string &getPtype() const;
+    void setPtype(const string &ptype);
+    const string &getSPtype() const;
+    void setSPtype(const string &sPtype);
+    Passenger process() override;
 };
 
 

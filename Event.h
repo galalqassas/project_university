@@ -15,26 +15,16 @@ protected:
     Time time; // event time step in hh:mm format
     int id; // passenger ID
     int start; // start station
-    int end; // end station (only for arrival events)
-    string ptype; // passenger type (SP, WP, NP) (only for arrival events)
 public:
     // constructor
     Event();
-    virtual void process() = 0;
-    virtual void print() = 0;
-    virtual ~Event();
-    // getters
-    Time getTime() const;
+    virtual Passenger process() = 0;
+    const Time &getTime() const;
+    void setTime(const Time &time);
     int getId() const;
+    void setId(int id);
     int getStart() const;
     void setStart(int start);
-    int getAnEnd() const;
-    void setAnEnd(int anEnd);
-    string getPtype() const;
-    // setters
-    void setTime(Time time);
-    void setId(int id);
-    void setPtype(string ptype);
 };
 
 
