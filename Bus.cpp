@@ -24,11 +24,11 @@ int Bus::getBusCapacity() const {
 }
 
 int Bus::getN() const {
-    return N;
+    return Num_of_trips;
 }
 
 void Bus::setN(int n) {
-    N = n;
+    Num_of_trips = n;
 }
 
 int Bus::getPassengerNumber() const {
@@ -53,12 +53,12 @@ void Bus::getPrioritysp(string passenger_type) {
     }
 }
 
-void Bus::add_passenger(Passenger passenger, string passenger_type) {
-    if (passenger.getStartStation() == currentStation){
-        int priority = abs(passenger.getEndStation()- passenger.getStartStation());
+void Bus::add_passenger(Passenger* passenger, string passenger_type) {
+    if (passenger->getStartStation() == currentStation){
+        int priority = abs(passenger->getEndStation()- passenger->getStartStation());
         passengers.enqueue(passenger, priority);
     }
-    N++;
+    Num_of_trips++;
 }
 
 int Bus::getSPPriority(string sp_type) {
@@ -73,10 +73,10 @@ int Bus::getSPPriority(string sp_type) {
     }
 }
 
-void Bus::remove_passenger(Passenger passenger) {
-    int priority = abs(passenger.getEndStation()- passenger.getStartStation());
+void Bus::remove_passenger(Passenger* passenger) {
+    int priority = abs(passenger->getEndStation()- passenger->getStartStation());
     passengers.dequeue();
-    N--;
+    Num_of_trips--;
 }
 
 

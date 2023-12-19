@@ -5,6 +5,7 @@
 #include "Station.h"
 #include "Passenger.h"
 
+
 short Station::getStationNumber() const {
     return stationNumber;
 }
@@ -13,71 +14,71 @@ void Station::setStationNumber(short stationNumber) {
     Station::stationNumber = stationNumber;
 }
 
-const PriorityQueue<Passenger> &Station::getWaitingSpForward() const {
+const PriorityQueue<Passenger*> &Station::getWaitingSpForward() const {
     return waitingSPForward;
 }
 
-void Station::setWaitingSpForward(const PriorityQueue<Passenger> &waitingSpForward) {
+void Station::setWaitingSpForward(const PriorityQueue<Passenger*> &waitingSpForward) {
     waitingSPForward = waitingSpForward;
 }
 
-const PriorityQueue<Passenger> &Station::getWaitingSpBackward() const {
+const PriorityQueue<Passenger*> &Station::getWaitingSpBackward() const {
     return waitingSPBackward;
 }
 
-void Station::setWaitingSpBackward(const PriorityQueue<Passenger> &waitingSpBackward) {
+void Station::setWaitingSpBackward(const PriorityQueue<Passenger*> &waitingSpBackward) {
     waitingSPBackward = waitingSpBackward;
 }
 
-const Queue<Passenger> &Station::getWaitingNpForward() const {
+const Queue<Passenger*> &Station::getWaitingNpForward() const {
     return waitingNPForward;
 }
 
-void Station::setWaitingNpForward(const Queue<Passenger> &waitingNpForward) {
+void Station::setWaitingNpForward(const Queue<Passenger*> &waitingNpForward) {
     waitingNPForward = waitingNpForward;
 }
 
-const Queue<Passenger> &Station::getWaitingNpBackward() const {
+const Queue<Passenger*> &Station::getWaitingNpBackward() const {
     return waitingNPBackward;
 }
 
-void Station::setWaitingNpBackward(const Queue<Passenger> &waitingNpBackward) {
+void Station::setWaitingNpBackward(const Queue<Passenger*> &waitingNpBackward) {
     waitingNPBackward = waitingNpBackward;
 }
 
-const Queue<Passenger> &Station::getWaitingWcPForward() const {
+const Queue<Passenger*> &Station::getWaitingWcPForward() const {
     return waitingWcPForward;
 }
 
-void Station::setWaitingWcPForward(const Queue<Passenger> &waitingWcPForward) {
+void Station::setWaitingWcPForward(const Queue<Passenger*> &waitingWcPForward) {
     Station::waitingWcPForward = waitingWcPForward;
 }
 
-const Queue<Passenger> &Station::getWaitingWcPBackward() const {
+const Queue<Passenger*> &Station::getWaitingWcPBackward() const {
     return waitingWcPBackward;
 }
 
-void Station::setWaitingWcPBackward(const Queue<Passenger> &waitingWcPBackward) {
+void Station::setWaitingWcPBackward(const Queue<Passenger*> &waitingWcPBackward) {
     Station::waitingWcPBackward = waitingWcPBackward;
 }
 
-const Queue<Bus> &Station::getAvailableBusesForward() const {
+const Queue<Bus*> &Station::getAvailableBusesForward() const {
     return availableBusesForward;
 }
 
-void Station::setAvailableBusesForward(const Queue<Bus> &availableBusesForward) {
+void Station::setAvailableBusesForward(const Queue<Bus*> &availableBusesForward) {
     Station::availableBusesForward = availableBusesForward;
 }
 
-const Queue<Bus> &Station::getAvailableBusesBackward() const {
+const Queue<Bus*> &Station::getAvailableBusesBackward() const {
     return availableBusesBackward;
 }
 
-void Station::setAvailableBusesBackward(const Queue<Bus> &availableBusesBackward) {
+void Station::setAvailableBusesBackward(const Queue<Bus*> &availableBusesBackward) {
     Station::availableBusesBackward = availableBusesBackward;
 }
 
-void Station::addPassengerWp(Passenger passenger) {
+void Station::addPassengerWp(Passenger* passenger) {
 
     if (isPassengerForward(passenger))
         waitingWcPForward.enqueue(passenger);
@@ -96,7 +97,7 @@ int Station::getSPPriority(string sp_type) {
     }
 }
 
-void Station::addPassengerSp(Passenger passenger, string type) {
+void Station::addPassengerSp(Passenger* passenger, string type) {
     int priority = getSPPriority(type);
     if (isPassengerForward(passenger))
         waitingSPForward.enqueue(passenger, priority);
@@ -104,15 +105,15 @@ void Station::addPassengerSp(Passenger passenger, string type) {
         waitingSPBackward.enqueue(passenger, priority);
 }
 
-void Station::addPassengerNp(Passenger passenger) {
+void Station::addPassengerNp(Passenger* passenger) {
     if (isPassengerForward(passenger))
         waitingNPForward.enqueue(passenger);
     else
         waitingNPBackward.enqueue(passenger);
 }
 
-bool Station::isPassengerForward(const Passenger &passenger) const {
-    return passenger.getEndStation() > passenger.getStartStation();
+bool Station::isPassengerForward(const Passenger *passenger) const {
+    return passenger->getEndStation() > passenger->getStartStation();
 }
 
 
