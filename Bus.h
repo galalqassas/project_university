@@ -12,10 +12,7 @@
 class Passenger;
 using namespace std;
 
-struct MaintenanceTime {
-    int journeys;
-    int hours;
-};
+
 
 class Bus {
 private:
@@ -23,10 +20,26 @@ private:
     int busCapacity;
     int Num_of_trips; // number of delivery trips of this bus
     int Passenger_number; // number of passenger travelled on this bus
-    MaintenanceTime maintenance;
+    int journeys;
+    int checkupHours;
     PriorityQueue<Passenger*> passengers; // moving passengers
     int currentStation;
     void getPrioritysp(string passenger_type);
+
+public:
+    int getNumOfTrips() const;
+
+    void setNumOfTrips(int numOfTrips);
+
+    int getJourneys() const;
+
+    void setJourneys(int journeys);
+
+    int getCheckupHours() const;
+
+    void setCheckupHours(int checkupHours);
+
+private:
     int getSPPriority(string sp_type);
 public:
     Bus();

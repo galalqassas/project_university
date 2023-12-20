@@ -10,7 +10,7 @@
 
 class LeaveEvent : public Event {
 public:
-    Passenger process() override;
+    Passenger Execute() override;
 };
 
 

@@ -13,7 +13,6 @@
 //#include "Station.h"
 using namespace std;
 
-
 struct Event_To_Read {
     char A_L;
     string type;
@@ -43,7 +42,7 @@ class Company {
 private:
     Queue<Bus> station0;
     Station *stations = new Station[50];
-    Queue<Event> eventQueue;
+    Queue<Event*> eventQueue;
     Queue<Passenger> finishedPassengerList;
     Queue<Bus> mBusMaintenance;
     Queue<Bus> wBusMaintenance;

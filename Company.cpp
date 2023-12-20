@@ -4,12 +4,11 @@
 
 #include <iostream>
 #include <fstream>
-#include <string>
 #include "Company.h"
 #include "ArrivalEvent.h"
 #include "LeaveEvent.h"
 
-void Company:: read_file(const char* filename, Parameters& eventParameters) {
+void Company::read_file(const char *filename, Parameters &eventParameters) {
     ifstream file(filename);
     if (!file.is_open()) {
         cerr << "Error opening file: " << filename << endl;
@@ -33,15 +32,13 @@ void Company:: read_file(const char* filename, Parameters& eventParameters) {
             ArrivalEvent ae;
             string type, sptype;
             string atime;
-            int id;
-            int start;
-            int end;
+            int id,start,end;
             file >> type;
             ae.setPtype(type);
             //
             file >> atime;
-            int hour = stoi(atime.substr(0, 1));
-            int minute = stoi(atime.substr(2, 3));
+            int hour = stoi(atime.substr(0, 2));
+            int minute = stoi(atime.substr(3, 5));
             Time t(hour, minute, 0);
             ae.setTime(t);
             //
@@ -58,33 +55,21 @@ void Company:: read_file(const char* filename, Parameters& eventParameters) {
             if (sptype != "\n")
                 ae.setSPtype(sptype);
 
-//            eventQueue.enqueue(ae);
+           eventQueue.enqueue(&ae);
         } else if (eventType == 'L') {
             LeaveEvent le;
+            string ltime;
+            file >> ltime;
+            int hour = stoi(ltime.substr(0, 2));
+            int minute = stoi(ltime.substr(3, 5));
+            le.setTime(Time(hour, minute, 0));
+            int id, start, end;
+            file >> id;
+            le.setId(id);
+            eventQueue.enqueue(&le);
         }
     }
 /*
-    file >> events[i].type >> events[i].time >> events[i].id;
-    file >> events[i].strtStation >> events[i].endStation;
-    char sptype;
-    file >> sptype;
-    file.ignore();
-    std::getline(file, events[i].condition);
-
-    Passenger p;
-    p.setPassengerType(events[i].type);
-
-    string hour = events[i].time.substr(0, 1);
-    string minute = events[i].time.substr(3, 2);
-    Time t;
-    t.setHour(stoi(hour));
-    t.setMin(stoi(minute));
-    t.setSec(0);
-    p.setArrivalTime(t);
-    p.setId(events[i].id);
-    p.setStartStation(events[i].strtStation);
-    p.setEndStation(events[i].endStation);
-
     if (p.getPassengerType() == "NP")
         stations[events[i].strtStation].addPassengerNp(&p);
     else if (p.getPassengerType() == "SP")
@@ -93,7 +78,4 @@ void Company:: read_file(const char* filename, Parameters& eventParameters) {
         stations[events[i].strtStation].addPassengerWp(&p);
     }
     file.close(); */
-
-
-
 }

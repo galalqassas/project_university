@@ -5,81 +5,68 @@
 #include "Passenger.h"
 
 
-Passenger::Passenger(const Time& arrivalTime, const Time& getOnTime, const Time& getOffTime, int startStation, int &endStation, const string& passengerType,string Special_Type,int id)
-        : Arrival_Time(arrivalTime), Get_On(getOnTime), Get_Off(getOffTime), Start_Station(startStation), End_Station(endStation), Passenger_Type(passengerType),Special_Type(Special_Type),Id(id) {}
-
-
-
-Time Passenger::getArrivalTime() const {
+const Time &Passenger::getArrivalTime() const {
     return Arrival_Time;
 }
 
-void Passenger::setArrivalTime(const Time& arrivalTime) {
+void Passenger::setArrivalTime(const Time &arrivalTime) {
     Arrival_Time = arrivalTime;
 }
 
-
-Time Passenger::getGetOnTime() const {
+short Passenger::getGetOn() const {
     return Get_On;
 }
 
-void Passenger::setGetOnTime(const Time& getOnTime) {
-    Get_On = getOnTime;
+void Passenger::setGetOn(short getOn) {
+    Get_On = getOn;
 }
 
-
-Time Passenger::getGetOffTime() const {
+short Passenger::getGetOff() const {
     return Get_Off;
 }
 
-void Passenger::setGetOffTime(const Time& getOffTime) {
-    Get_Off = getOffTime;
+void Passenger::setGetOff(short getOff) {
+    Get_Off = getOff;
 }
-
 
 int Passenger::getStartStation() const {
     return Start_Station;
 }
 
-void Passenger::setStartStation(const int& startStation) {
+void Passenger::setStartStation(int startStation) {
     Start_Station = startStation;
 }
-
 
 int Passenger::getEndStation() const {
     return End_Station;
 }
 
-void Passenger::setEndStation(const int& endStation) {
+void Passenger::setEndStation(int endStation) {
     End_Station = endStation;
 }
 
-
-string Passenger::getPassengerType() const {
+const string &Passenger::getPassengerType() const {
     return Passenger_Type;
 }
 
-void Passenger::setPassengerType(const string& passengerType) {
+void Passenger::setPassengerType(const string &passengerType) {
     Passenger_Type = passengerType;
 }
 
-void Passenger::setSpecialType(string special){
-    Special_Type=special;
-}
-string Passenger::getSpecialType() const{
+const string &Passenger::getSpecialType() const {
     return Special_Type;
 }
-void Passenger::setId(int id){
-    Id=id;
+
+void Passenger::setSpecialType(const string &specialType) {
+    Special_Type = specialType;
 }
-int Passenger::getId() const{
+
+int Passenger::getId() const {
     return Id;
 }
 
-Passenger::Passenger() {
-
+void Passenger::setId(int id) {
+    Id = id;
 }
 
-
-
-
+Passenger::Passenger() {}

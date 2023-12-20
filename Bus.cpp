@@ -79,6 +79,30 @@ void Bus::remove_passenger(Passenger* passenger) {
     Num_of_trips--;
 }
 
+int Bus::getNumOfTrips() const {
+    return Num_of_trips;
+}
+
+void Bus::setNumOfTrips(int numOfTrips) {
+    Num_of_trips = numOfTrips;
+}
+
+int Bus::getJourneys() const {
+    return journeys;
+}
+
+void Bus::setJourneys(int journeys) {
+    Bus::journeys = journeys;
+}
+
+int Bus::getCheckupHours() const {
+    return checkupHours;
+}
+
+void Bus::setCheckupHours(int checkupHours) {
+    Bus::checkupHours = checkupHours;
+}
+
 
 
 

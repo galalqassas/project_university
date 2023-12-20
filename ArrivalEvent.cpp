@@ -9,7 +9,7 @@ using namespace std;
 // constructor
 
 
-Passenger ArrivalEvent::process() {
+Passenger ArrivalEvent::Execute() {
     Passenger new_passenger;
     new_passenger.setPassengerType(ptype);
     new_passenger.setId(id);

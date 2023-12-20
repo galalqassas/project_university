@@ -7,7 +7,7 @@
 #include <iostream>
 using namespace std;
 
-Passenger LeaveEvent::process() {
+Passenger LeaveEvent::Execute() {
     Passenger new_passenger;
     new_passenger.setStartStation(start);
     new_passenger.setId(id);

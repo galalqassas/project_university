@@ -18,7 +18,7 @@ protected:
 public:
     // constructor
     Event();
-    virtual Passenger process() = 0;
+    virtual Passenger Execute()=0;
     const Time &getTime() const;
     void setTime(const Time &time);
     int getId() const;

@@ -15,15 +15,13 @@ private:
     string SPtype; // extra word for an SP type
 public:
     ArrivalEvent();
-
-public:
     int getAnEnd() const;
     void setAnEnd(int anEnd);
     const string &getPtype() const;
     void setPtype(const string &ptype);
     const string &getSPtype() const;
     void setSPtype(const string &sPtype);
-    Passenger process() override;
+    Passenger Execute() override;
 };
 
 
