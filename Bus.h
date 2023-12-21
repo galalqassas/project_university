@@ -4,7 +4,7 @@
 #pragma once
 #ifndef DATA_STRUCTURE_PROJECT_BUS_H
 #define DATA_STRUCTURE_PROJECT_BUS_H
-
+//This is my secret message if you found it, delete it.
 #include "Passenger.h"
 #include "PriorityQueue.h"
 #include "LinkedList.h"
@@ -57,6 +57,4 @@ public:
     void add_passenger(Passenger* passenger, string passenger_type);
     void remove_passenger(Passenger* passenger);
 };
-
-
 #endif //DATA_STRUCTURE_PROJECT_BUS_H
